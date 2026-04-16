@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>apocalipse</title>
+</head>
+<body>
+
+<header>
+   <h1>APOCALIPSE</h1>
+   <p>SOVREVIVA SE FOR CAPAZ</p>
+</header>
+
+<main>
+
+ <div id="painelEvento">
+    <p id="textoEvento"> Click em explorar...</p>
+ </div>
+
+
+<div class="sitema">
+
+    <div>
+    <p>vida</p>
+    <div class="barra"><div id="vidabarra"></div></div>
+    </div>
+
+
+    <div>
+    <p>sede</p>
+    <div class="barra"><div id="sedebarra"></div></div>
+    </div>
+
+    <div>
+    <p>fome</p>
+    <div class="barra"><div id="fomebarra"></div></div>
+    </div>
+
+</div>
+
+<div class="acoes">
+    <button id="Explora" onclick="explorar()">Explorar</button>
+    <button onclick="Comer()">Comer</button>
+    <button onclick="Beber()">Beber</button>
+    <button onclick="Descansar()">Descansar</button>
+</div>
+<div class="cor">
+<div id="inventario">
+    <p>Madeira: <span id="madeiraQtd">0</span></p>
+    <p>Pedra: <span id="pedraQtd">0</span></p>
+    <p>M. metal: <span id="metalQtd">0</span></p>
+</div>
+<div id="inventario">
+    <p>Comida: <span id="comidaQtd">0</span></p>
+    <p>Água: <span id="aguaQtd">0</span></p>
+    <p>Remédio: <span id="remedioQtd">0</span></p>
+</div>
+</div>
+
+</main>
+
+    <script src="script.js"></script>
+</body>
+</html>
