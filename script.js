@@ -55,7 +55,7 @@ function explorar(){
     setTimeout(() => {
         botao.disabled = false;
         botao.innerText = "Explora";
-    }, 1000);
+    }, 1001);
 
     atualizarInventario();
 }
