@@ -1,5 +1,6 @@
 body{
     background-color: #E8E0C7;
+    overflow-x: hidden;
 }
 
 html, body{
@@ -20,8 +21,8 @@ header{
 #painelEvento{
     padding: 20px;
     background-color: #e2d9bc;
-    max-width: 100px;
-    width: 100%;
+    max-width: 300px;
+    width: 90%;
     height: 200px;
     margin: 20px auto;
     border-radius: 10px;
@@ -94,6 +95,7 @@ button:hover{
     margin-top: 23px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
     font-size: 18px;
     font-family: monospace;
