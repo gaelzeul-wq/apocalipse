@@ -20,7 +20,7 @@ header{
 #painelEvento{
     padding: 20px;
     background-color: #e2d9bc;
-    width: 400px;
+    width: 250px;
     height: 200px;
     margin: 20px auto;
     border-radius: 10px;
@@ -40,7 +40,7 @@ header{
 }
 
 .barra{
-    width: 125px;
+    width: 100px;
     height: 20px;
     background-color: #ccc;
     border-radius: 10px;
@@ -70,7 +70,7 @@ header{
 .acoes{
     margin-top: 55px;
     display: flex;
-    gap: 6px;
+    gap: 3px;
     justify-content: center;
 }
 
@@ -81,7 +81,7 @@ button{
     padding: 12px;
     cursor: pointer;
     font-family: arial;
-    font-size: 22px;
+    font-size: 15px;
     padding: 15px;
 }
 
@@ -94,9 +94,9 @@ button:hover{
     display: flex;
     justify-content: center;
     gap: 30px;
-    font-size: 25px;
+    font-size: 18px;
     font-family: monospace;
-    padding: 20px;
+    padding: 15px;
     border-color: black;
     text-align: center;
 }
