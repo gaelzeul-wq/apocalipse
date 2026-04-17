@@ -10,11 +10,17 @@ html, body{
     height: 100%;
 
 }
+.intentory{
+    padding: 15px;
+    text-align: center;
+    font-family: arial;
+    font-size: 23px;
+}
 
 header{
     background-color: #e2d9bc;
     text-align: center;
-    padding: 20px;
+    padding: 2px;
     font-family: arial;
 }
 
@@ -92,12 +98,12 @@ button:hover{
 }
 
 #inventario{
-    margin-top: 23px;
+    margin-top: 12px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    font-size: 18px;
+    font-size: 22px;
     font-family: monospace;
     padding: 15px;
     border-color: black;
