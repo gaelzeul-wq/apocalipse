@@ -29,7 +29,7 @@ function explorar(){
 
     if(sorte < 0.55) {
         inventario.madeira += QtdComum;
-        mostraEvento(`Você encontrou ${QtdComum} de madeira!`);
+        mostraEvento(`Você encontrou ${QtdComum} de madeira! 🌲`);
     }
     else if(sorte < 0.70) {
         inventario.pedra += QtdComum;
@@ -37,7 +37,7 @@ function explorar(){
     }
     else if(sorte < 0.80){
         inventario.comida += QtdComum;
-        mostraEvento(`Você encontrou ${QtdComum} de comida!`);
+        mostraEvento(`Você encontrou ${QtdComum} de comida! 🍎`);
     }
     else if(sorte < 0.90) {
         inventario.agua += QtdMedia;
@@ -45,7 +45,7 @@ function explorar(){
     }
     else if(sorte < 0.98) {
         inventario.metal += QtdRaro;
-        mostraEvento(`Você encontrou ${QtdRaro} de minério de metal! 🪙`);
+        mostraEvento(`Você encontrou ${QtdRaro} de minério de metal! ⛏️`);
     }
     else {
         inventario.remedio += 1;
