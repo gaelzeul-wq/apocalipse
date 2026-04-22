@@ -29,7 +29,7 @@ function explorar(){
 
     if(sorte < 0.55) {
         inventario.madeira += QtdComum;
-        mostraEvento(`Você encontrou ${QtdComum} de madeira! 🧱`);
+        mostraEvento(`Você encontrou ${QtdComum} de madeira! 🌲`);
     }
     else if(sorte < 0.70) {
         inventario.pedra += QtdComum;
