@@ -90,6 +90,13 @@ header{
     max-width: 300px;
 
 }
+@media (max-width: 600px) {
+    .meubotao {
+    top: 80%;
+        
+    
+}
+}
 
 .meubotao2{
     background-color: #bb8c60;
