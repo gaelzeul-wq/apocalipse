@@ -29,11 +29,11 @@ function explorar(){
 
     if(sorte < 0.55) {
         inventario.madeira += QtdComum;
-        mostraEvento(`Você encontrou ${QtdComum} de madeira! 🌲`);
+        mostraEvento(`Você encontrou ${QtdComum} de madeira! 🧱`);
     }
     else if(sorte < 0.70) {
         inventario.pedra += QtdComum;
-        mostraEvento(`Você encontrou ${QtdComum} de pedra!`);
+        mostraEvento(`Você encontrou ${QtdComum} de pedra! 🗿`);
     }
     else if(sorte < 0.80){
         inventario.comida += QtdComum;
@@ -41,11 +41,11 @@ function explorar(){
     }
     else if(sorte < 0.90) {
         inventario.agua += QtdMedia;
-        mostraEvento(`Você encontrou ${QtdMedia} de água! 💧`);
+        mostraEvento(`Você encontrou ${QtdMedia} Garrafas de água! 💧`);
     }
     else if(sorte < 0.98) {
         inventario.metal += QtdRaro;
-        mostraEvento(`Você encontrou ${QtdRaro} de minério de metal! ⛏️`);
+        mostraEvento(`Você encontrou ${QtdRaro} de sucata! ⚙️`);
     }
     else {
         inventario.remedio += 1;
