@@ -61,11 +61,13 @@ function explorar(){
 }
 
 function abrieinventario(){
-    document.getElementById("inventario").style.display = "block";
+   let inventario = document.getElementById("inventario");
+   inventario.style.display = "block";
 }
 
 function fecharinventario(){
-    document.getElementById("inventario").style.display = "none";
+    let inventario = document.getElementById("inventario");
+    inventario.style.display = "none";
 }
 
 function Comer(){

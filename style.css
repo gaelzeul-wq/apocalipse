@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     background-color: #E8E0C7;
     overflow-x: hidden;
 }
@@ -79,7 +80,7 @@ header{
 
 }
 
-.meubotao{
+meubotao{
     position: absolute;
     top: 60%;
     left: 50%;
@@ -90,20 +91,32 @@ header{
     max-width: 300px;
 
 }
-@media (max-width: 300px) {
-    .meubotao {
-    width: 100px;
-        
-    
+
+.meubotao{
+    background-color: #ebc191;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 20px;
+    padding: 15px;
 }
+
+.meubotao2{
+    background-color: #cac4b0;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 15px;
+    padding: 15px;
 }
 
 .meubotao2{
     background-color: #bb8c60;
 }
-
-
-
 
 .barra div{
     height: 100%;
@@ -126,13 +139,22 @@ header{
 }
 
 .acoes{
-    margin-top: 55px;
+    margin-top: 20px;
     display: flex;
     gap: 3px;
     justify-content: center;
+    
 }
 
-button{
+.acoes1{
+    margin-top: 30px;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    
+}
+
+.button1{
     background-color: #cac4b0;
     border-radius: 10px;
     border: none;
@@ -146,6 +168,8 @@ button{
 button:hover{
     background-color: #d4c48a;
 }
+
+
 
 #inventario{
     margin-top: 12px;
@@ -165,3 +189,4 @@ button:hover{
     cursor: no-drop;
 
 }
+
