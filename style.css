@@ -92,7 +92,7 @@ header{
 }
 @media (max-width: 300px) {
     .meubotao {
-    top: 100%;
+    width: 100px;
         
     
 }
