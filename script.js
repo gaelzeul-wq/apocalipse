@@ -136,6 +136,27 @@ function atualizarBarras(){
     document.getElementById("vidabarra").style.width = (vida / max) * 100 + "%";
     document.getElementById("fomebarra").style.width = (fome / max) * 100 + "%";
     document.getElementById("sedebarra").style.width = (sede / max) * 100 + "%";
+    atualizarmudarFundo();
+}
+
+function atualizarmudarFundo(){
+    let painelEvento = document.getElementById("painelEvento");
+    if(vida > 75) {
+        painelEvento.style.backgroundColor = "#e2d9bc";
+    } else if(vida > 60) {
+        painelEvento.style.backgroundColor = "#facece";
+    } else if(vida > 50) {
+        painelEvento.style.backgroundColor = "#d45e5e";
+    } else if(vida > 40) {
+        painelEvento.style.backgroundColor = "#a72a2a";
+    } else if(vida > 30) {
+        painelEvento.style.backgroundColor = "#5e0c0c";
+    } else if(vida > 20) {
+        painelEvento.style.backgroundColor = "#410909";
+    } else if(vida > 9) {
+        painelEvento.style.backgroundColor = "#1b0202";
+    }
+
 }
 
 setInterval(() => {

@@ -25,6 +25,7 @@ header{
 }
 
 #painelEvento{
+    transition: background-color 0.5s;
     padding: 20px;
     background-color: #e2d9bc;
     max-width: 300px;
