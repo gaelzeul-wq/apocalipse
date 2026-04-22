@@ -87,6 +87,7 @@ header{
     font-family: monospace;
     font-size: 20px;
     background-color: #f8d1ac;
+    max-width: 300px;
 
 }
 
