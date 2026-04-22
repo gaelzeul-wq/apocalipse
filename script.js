@@ -25,7 +25,7 @@ function explorar(){
     // quantidades
     let QtdComum = Math.floor(Math.random() * 3) + 3; // 3 a 5
     let QtdMedia = Math.floor(Math.random() * 2) + 2; // 2 a 3
-    let QtdRaro = Math.floor(Math.random() * 1) + 1;  // 1
+    let QtdRaro = Math.floor(Math.random() * 2) + 3;  // 1
 
     if(sorte < 0.55) {
         inventario.madeira += QtdComum;
@@ -47,7 +47,7 @@ function explorar(){
         inventario.metal += QtdRaro;
         mostraEvento(`Você encontrou ${QtdRaro} de sucata! ⚙️`);
     }
-    else {
+    else{
         inventario.remedio += 1;
         mostraEvento(`Você encontrou um remédio raro! 💊`);
     }
