@@ -11,6 +11,7 @@
 <header>
    <h1>APOCALIPSE</h1>
    <p>SOBREVIVA SE FOR CAPAZ</p>
+   <P>TEMPO CRONOMETRO: <span id="tempo">00:00:00</span></P>
 </header>
 
 <main>
@@ -46,18 +47,21 @@
     <button onclick="Beber()">Beber</button>
     <button onclick="Descansar()">Descansar</button>
 </div>
+<button class="meubotao" onclick="abrieinventario()">Inventário</button>
+
+<div id="inventario" class="tela">
 <h5 class="intentory">INVENTÁRIO</h5>
-<div class="cor">
-<div id="inventario">
+<div id="inventario1">
     <p>Madeira: <span id="madeiraQtd">0</span></p>
     <p>Pedra: <span id="pedraQtd">0</span></p>
     <p>M. metal: <span id="metalQtd">0</span></p>
 </div>
-<div id="inventario">
+<div id="inventario2">
     <p>Comida: <span id="comidaQtd">0</span></p>
     <p>Água: <span id="aguaQtd">0</span></p>
     <p>Remédio: <span id="remedioQtd">0</span></p>
 </div>
+<button class="meubotao2" onclick="fecharinventario()">Fechar</button>
 </div>
 
 </main>

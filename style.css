@@ -55,6 +55,47 @@ header{
     margin-top: 10px;
     border: 1px black solid;
 }
+
+.tela{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 300px;
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+    border-radius: 10px;
+    z-index: 1000;
+    text-align: center;
+    background: linear-gradient(10deg, #e6a971, #724112);
+
+}
+
+.meubotao{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: monospace;
+    font-size: 20px;
+    background-color: #f8d1ac;
+
+}
+
+.meubotao2{
+    background-color: #bb8c60;
+}
+
+
+
+
 .barra div{
     height: 100%;
     transition: width 0.3s ease;
